@@ -20,3 +20,6 @@
       border-radius: 5px;
       text-align: center;
 }
+span {
+　display: inline-block;
+}
