@@ -3,7 +3,7 @@
 }
 .box {
   position     : relative;
-  margin       : 0px;
+  margin       : 100%;
   width        : 320px;
   height       : 40px;
   background   : #ccff99;
