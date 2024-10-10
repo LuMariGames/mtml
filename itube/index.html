@@ -4,7 +4,7 @@
 </head>
 <body>
     <button onclick="loadVideo('5uCzhLd66Bk')">動画1</button>
-    <button onclick="loadVideo('5uCzhLd66Bk')">動画2</button>
+    <button onclick="loadVideo(document.getElementById('inText'))">動画2</button>
     <input type="text" id="inText" oninput="loadVideo(id)" style="width:260px" placeholder="入力してください">
 
     <div id="videoContainer"></div>
@@ -22,18 +22,6 @@
                 </iframe>`;
             
             document.getElementById('videoContainer').innerHTML = iframeHtml;
-        }
-        var gTimer;
-        function inputText(){
-         // =========================================================
-         //   入力の度に実行される
-         //     入力完了までタイマーで実行待ちする
-         //     タイマーまでに次の入力があると、再度タイマー設定
-         // =========================================================
-            //   一定時間を待って入力完了と判断 
-            // =============================================
-            if(gTimer){clearTimeout(gTimer);}
-            gTimer = setTimeout(loadVideo('document.getElementById("inText").value'), 100);
         }
     </script>
 </body>
