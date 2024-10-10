@@ -1,0 +1,42 @@
+#body {
+      width:100%;
+}
+.box {
+      position: relative;
+      margin: 0;
+      width: 320px;
+      height: 40px;
+      background: #ccff99;
+}
+.box span {      /* 前面の文字エリア */
+      position: absolute;
+      display: inline-block;
+      top: 0px;
+      left: 0px;
+      padding: 3px;
+      color: #333;
+      font-size: 12pt;
+      border-radius: 5px;
+      text-align: center;
+}
+span {
+　display: inline-block;
+}
+.box2 {
+      position: relative;
+      margin: 0;
+      width: 320px;
+      height: 40px;
+      background: linear-gradient(0deg, #ff7f00, #ffa64d);
+}
+.box2 span {      /* 前面の文字エリア */
+      position: absolute;
+      display: inline-block;
+      top: 0px;
+      left: 0px;
+      padding: 3px;
+      color: #333;
+      font-size: 12pt;
+      border-radius: 5px;
+      text-align: center;
+}
