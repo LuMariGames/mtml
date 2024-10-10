@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>YouTube動画</title>
+    <title>iTube</title>
 </head>
 <body>
     <button onclick="loadVideo('5uCzhLd66Bk')">動画1</button>
@@ -38,10 +38,7 @@
             //   一定時間を待って入力完了と判断 
             // =============================================
             if(gTimer){clearTimeout(gTimer);}
-            gTimer = setTimeout(inputEnd, 100);
-        }
-        function inputEnd(){
-            loadVideo(document.getElementById("inText").value)
+            gTimer = setTimeout(loadVideo(document.getElementById("inText").value), 100);
         }
     </script>
 </body>
