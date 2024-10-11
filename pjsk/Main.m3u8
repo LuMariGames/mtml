@@ -1,7 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-MEDIA-SEQUENCE:0
-#EXT-ALLOW-CACHE:NO
+#EXT-ALLOW-CACHE:YES
 #EXT-X-TARGETDURATION:60
 #EXTINF:30.0000,
 https://raw.githubusercontent.com/LuMariGames/mtml/refs/heads/main/pjsk/生命性シンドロウム-1.mp3
