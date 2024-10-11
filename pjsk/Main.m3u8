@@ -1,4 +1,6 @@
 #EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
 #EXTINF:30.0000,
 生命性シンドロウム-1.mp3
 #EXTINF:30.0000,
@@ -7,4 +9,3 @@
 生命性シンドロウム-3.mp3
 #EXTINF:42.5714,
 生命性シンドロウム-4.mp3
-#EXT-X-ENDLIST
