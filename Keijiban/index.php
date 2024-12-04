@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
-<head><title>PHP TEST</title></head>
-<body>
+ <head><title>PHP TEST</title></head>
+ <body>
 
 <p>掲示板</p>
 
@@ -22,5 +23,5 @@ print('<p>内容:</p>');
 print('<p>'.$contents.'</p>');
 
 ?>
-</body>
+ </body>
 </html>
