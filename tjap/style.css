@@ -4,7 +4,7 @@
 .box {
       position: relative;
       margin: 0;
-      width: 320px;
+      width: 310px;
       height: 40px;
       background: #ccff99;
 }
@@ -25,49 +25,11 @@ span {
 .box2 {
       position: relative;
       margin: 0;
-      width: 320px;
+      width: 310px;
       height: 40px;
       background: linear-gradient(0deg, #ff7f00, #ffa64d);
 }
 .box2 span {      /* 前面の文字エリア */
-      position: absolute;
-      display: inline-block;
-      top: 0px;
-      left: 0px;
-      padding: 3px;
-      color: #333;
-      font-size: 12pt;
-      border-radius: 5px;
-      text-align: center;
-}
-.topbox {
-  margin        : auto;                 /* サンプル用 中央寄せ */
-  box-sizing    : border-box;           /* 罫線も含む長さ      */
-  width         : 240px;                /* BOXの幅             */
-  height        : 40px;                /* BOXの高さ           */
-  background    : #7b7b7b;              /* BOXの背景色         */
-  border-radius : 12px 12px 0px 0px;               /* 角丸の指定          */
-}
-.topbox span {      /* 前面の文字エリア */
-      position: absolute;
-      display: inline-block;
-      top: 0px;
-      left: 0px;
-      padding: 3px;
-      color: #333;
-      font-size: 12pt;
-      border-radius: 5px;
-      text-align: center;
-}
-.bottombox {
-  margin        : auto;                 /* サンプル用 中央寄せ */
-  box-sizing    : border-box;           /* 罫線も含む長さ      */
-  width         : 320px;                /* BOXの幅             */
-  height        : 480px;                /* BOXの高さ           */
-  background    : #7b7b7b;              /* BOXの背景色         */
-  border-radius : 0px 12px 12px 12px;               /* 角丸の指定          */
-}
-.bottombox span {      /* 前面の文字エリア */
       position: absolute;
       display: inline-block;
       top: 0px;
