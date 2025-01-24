@@ -2,18 +2,10 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/core.css" />
+    <script type="module" src="https://pyscript.net/latest/core.js"></script>
   </head>
   <body>
-    <py-script>
-      import random
-      # おみくじの結果リスト
-      fortunes = [‘大吉’, ‘吉’, ‘凶’, ‘大凶’]
-      # ランダムにおみくじの結果を選ぶ
-      fortune = random.choice(fortunes)
-      # 結果を表示する
-      print(fortune)
-    </py-script>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
   </body>
 </html>
