@@ -5,7 +5,7 @@ body {
 
 @font-face {
 　font-family: 'daiedo';
-　src: url('Daiedo.woff') format('woff');
+　src: url('Daiedo.otf') format('otf');
 　/* 他のフォントスタイルプロパティも指定可能 */
 }
 
