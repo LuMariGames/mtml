@@ -11,12 +11,10 @@
     <video id="video_smaple" controls></video>
 
     <script>
-    if(Hls.isSupported()) {
-    	var video = document.getElementById('video_smaple');
-    	var hls = new Hls();
-    	hls.loadSource('./m3u8TEST/main.m3u8');
-    	hls.attachMedia(video);
-    }
+    var video = document.getElementById('video_smaple');
+  	var hls = new Hls();
+  	hls.loadSource('./m3u8TEST/main.m3u8');
+    hls.attachMedia(video);
     </script>
     <script>
       document.write("<p>JavaScript </p>" + myFunction(57257, 57257));
