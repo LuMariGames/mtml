@@ -1,15 +1,15 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:12
+#EXT-X-TARGETDURATION:15
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXTINF:12,
+#EXTINF:14,
 test0.ts
 #EXTINF:12,
 test1.ts
 #EXTINF:12,
 test2.ts
-#EXTINF:12,
+#EXTINF:8,
 test3.ts
 #EXTINF:12,
 test4.ts
@@ -43,7 +43,7 @@ test17.ts
 test18.ts
 #EXTINF:12,
 test19.ts
-#EXTINF:12,
+#EXTINF:8,
 test20.ts
 #EXTINF:12,
 test21.ts
@@ -59,7 +59,7 @@ test25.ts
 test26.ts
 #EXTINF:12,
 test27.ts
-#EXTINF:12,
+#EXTINF:8,
 test28.ts
 #EXTINF:12,
 test29.ts
@@ -71,8 +71,8 @@ test31.ts
 test32.ts
 #EXTINF:12,
 test33.ts
-#EXTINF:12,
+#EXTINF:11,
 test34.ts
-#EXTINF:6,
+#EXTINF:2,
 test35.ts
 #EXT-X-ENDLIST
